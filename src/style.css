@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter',sans-serif;
+}
+.Nav{
+  background-color: #F55A5A;
+  color: white;
+  height:56px;
+  display: flex;
+  align-items: center;
+ 
+}
+.Nav>h3{
+  margin-right:auto;
+  margin-left:1%;
+}
+.Nav>i{
+  margin-left: 40%;
+  margin-right: 0;
+}
+.cards--list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap:20px;
+  overflow-y: auto;
+}
+.Cards{
+  width:70%;
+  margin:auto;
+  margin-top: 2%;
+  top:16%;
+  flex:0 0 auto;
+  flex: 0 0 auto;         
+  display: flex;          
+  flex-direction: row; 
+  position: relative;
+}
+.picture{
+  max-width:40%;
+  height: auto;
+  margin-right: 15px;
+}
+.date{
+  font-weight: bold;
+  font-size: small;
+}
+.Google{
+  font-weight: 400;
+  margin-left: 7px;
+  color: #918E9B;
+  font-size: small;
+}
+.description{
+  font-weight: 200;
+}
+.loclogo{
+  height:15px;
+  width: auto;
+}
+.place{
+  margin-left: 7px;
+  height:15px;
+}
+
